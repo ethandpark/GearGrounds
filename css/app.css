@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Khula&family=Quicksand:wght@400;600;700&display=swap');
+.uk-container {
+    max-width: 1600px;
+}
+
+.banner-wrapper {}
+
+.footer {
+    width: 1600px;
+    height: 74px;
+    left: 0px;
+    top: 4319px;
+    background-color: black;
+}
+
+.footer-text {
+    font-family: Khula;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: white;
+    padding-top: 10px;
+}
+
+.logo-wrapper {
+    background-color: #EDEDED;
+    min-height: 50px;
+    height: 134px;
+}
+
+.main-content {
+    background-color: white;
+    padding-top: 30px;
+}
+
+.menu-wrapper {
+    background-color: white;
+}
+
+.uk-panel-title {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 36px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.panel-condition {
+    font-family: Quicksand;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 36px;
+}
+
+.section-title {
+    margin-top: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.slideshow-trade {
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 36px;
+    color: black;
+}
+
+.slideshow-trade-search {
+    width: 586px;
+    height: 49px;
+    background-color: #212121;
+}
+
+.slideshow-trade-searchbar {
+    background-color: #212121;
+    height: 49px;
+    border: none;
+    width: 555px;
+}
+
+.slideshow-hot {
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 55px;
+}
+
+.slideshow-hot-button {
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 36px;
+    width: 269px;
+    height: 49px;
+    background-color: white;
+}
+
+.slideshow-listen {
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 55px;
+    width: 650px;
+    height: 110px;
+    padding-left: 728px;
+    padding-top: 67px;
+    text-align: right;
+    color: black !important;
+}
+
+.slideshow-listen-button {
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 36px;
+    width: 254px;
+    height: 49px;
+    margin-left: 1121px;
+    text-decoration: none;
+}
+
+.overlay-trade {
+    margin-top: 107px;
+    margin-left: 60px;
+}
+
+h1 {
+    font-family: Julius Sans One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+    color: #304E8D;
+}
+
+.uk-navbar {
+    border: none;
+    background-color: white;
+}
+
+.uk-navbar-nav li a {
+    font-family: Khula;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 43px;
+    color: black;
+}
+
+.navbar-main {
+    margin-left: 1060px;
+}
+
+.nav-icon {
+    padding-right: 5px;
+}
+
+.nav-searchbar {
+    background-color: #212121;
+    height: 49px;
+    border: none;
+    width: 555px;
+}

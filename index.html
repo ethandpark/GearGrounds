@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GearGrounds - Home</title>
+    <link rel="stylesheet" href="css/uikit.almost-flat.min.css" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/components/slideshow.almost-flat.min.css" />
+    <link rel="stylesheet" href="css/components/slidenav.almost-flat.min.css" />
+    <link rel="stylesheet" href="css/components/dotnav.almost-flat.min.css" />
+    <!-- alternate jquery link
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>-->
+    <script src="js/jquery.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="uikit/dist/js/uikit-icons.min.js"></script>
+    <script src="js/components/slideshow.min.js"></script>
+    <script src="js/components/slideshow-fx.min.js"></script>
+</head>
+
+<body>
+    <div class="logo-wrapper">
+        <div class="uk-container uk-container-center">
+            <div style="padding-top: 49px;"></div>
+            <div class="uk-grid">
+                <div class="uk-width-small-5-10 uk-width-medium-3-10">
+                    <h1>GearGrounds</h1>
+                </div>
+                <form class="uk-search uk-search-default slideshow-trade-search uk-border-rounded">
+                    <input class="uk-search-input nav-searchbar uk-border-rounded" type="search" placeholder="  Search the marketplace">
+                    <a href="" i class="uk-icon-search"></a>
+                </form>
+            </div>
+        </div>
+    </div>
+    <nav class="uk-navbar uk-container uk-container-center">
+        <ul class="uk-navbar-nav uk-nav-parent-icon">
+            <li><a href="#"><i class="uk-icon-bell nav-icon"></i>Notifications</a></li>
+            <li><a href="#"><i class="uk-icon-home nav-icon"></i>My Feed</a></li>
+            <li><a href="#"><i class="uk-icon-heart nav-icon"></i>Watch-list</a></li>
+            <li><a href="#"><i class="uk-icon-user nav-icon"></i>My Account</a></li>
+        </ul>
+    </nav>
+    </div>
+    <div class="slideshow-wrapper">
+        <div class="uk-container uk-container-center">
+            <div class="uk-grid">
+                <div class="uk-width-1-1">
+                    <div class="uk-slidenav-position" data-uk-slideshow="{autoplay:true, autoplayInterval:6000, duration:1400, animation: 'scroll'}">
+                        <ul class="uk-slideshow uk-overlay-active">
+                            <li>
+                                <img src="images/slideshow/banner-hot.png">
+                                <div class="uk-overlay-panel overlay-trade uk-overlay-fade">
+                                    <h2 class="slideshow-hot">Hot Items</h2>
+                                    <button class="uk-button uk-button-default slideshow-hot-button">A Collection of
+                                        Staff-Picked Deals</button>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="images/slideshow/banner-listen.png">
+                                <div class="uk-overlay-panel overlay-listen uk-overlay-fade">
+                                    <h2 class="slideshow-listen">Liven up those long work-at-home sessions</h2>
+                                    <button class="uk-button uk-button-secondary slideshow-listen-button">Browse all
+                                        home-audio</button>
+                                </div>
+                            </li>
+                            <li><img src="images/slideshow/banner-live.png"></li>
+                            <li><img src="images/slideshow/banner-trade.png">
+                                <div class="uk-overlay-panel overlay-trade uk-overlay-fade">
+                                    <h2 class="slideshow-trade">Find the perfect trade</h2>
+                                    <form class="uk-search uk-search-default slideshow-trade-search uk-border-rounded">
+
+                                        <input class="uk-search-input slideshow-trade-searchbar uk-border-rounded" type="search" placeholder="  Search the marketplace">
+                                        <a href="" i class="uk-icon-search"></a>
+                                    </form>
+
+                                </div>
+                            </li>
+                        </ul>
+                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-previous" data-uk-slideshow-item="previous"></a>
+                        <a href="" class="uk-slidenav uk-slidenav-contrast uk-slidenav-next" data-uk-slideshow-item="next"></a>
+
+                        <ul class="uk-dotnav uk-dotnav-contrast uk-position-bottom uk-flex-center">
+                            <li data-uk-slideshow-item="0">
+                                <a href=""></a>
+                            </li>
+                            <li data-uk-slideshow-item="1">
+                                <a href=""></a>
+                            </li>
+                            <li data-uk-slideshow-item="2">
+                                <a href=""></a>
+                            </li>
+                            <li data-uk-slideshow-item="3">
+                                <a href=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav class="uk-navbar uk-container uk-container-center">
+        <ul class="uk-navbar-nav uk-nav-parent-icon">
+            <li><a href="#">Guitars</a></li>
+            <li><a href="#">Pedals</a></li>
+            <li><a href="#">Amps</a></li>
+            <li><a href="#">Audiophile</a></li>
+            <li><a href="#">Keyboards and synths</a></li>
+            <li><a href="#">Drums</a></li>
+            <li><a href="#">Recording Gear</a></li>
+        </ul>
+    </nav>
+
+    <div class="uk-container uk-container-center main-content">
+        <div class="uk-grid uk-grid-width-large-1-2 section-title">
+            <h2>Recently Viewed</h2>
+            <a href="">
+                <h4 class="uk-text-right">See All></h4>
+            </a>
+        </div>
+        <div class="uk-grid uk-grid-width-medium-1-2 uk-grid-width-large-1-6" uk-grid uk-height-match="target: > div > .uk-panel; row: false" data-uk-grid-margin>
+            <!--Recently Viewed-->
+            <div>
+                <div class="uk-panel uk-panel-box uk-panel-hover">
+                    <figure class="uk-overlay uk-overlay-hover uk-text-center">
+                        <img class="uk-align-center" src="images/recently-viewed/shigeharu.png" />
+                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-top">
+                            <h3>Looking for:</h3> <br>
+                            <p>KOT</p>
+                            <p>Arp87</p>
+                        </figcaption>
+                    </figure>
+                    <h3 class="uk-panel-title">Caroline Olympia Fuzz - Shigeharu Graphic!</h3>
+                    <p class="panel-condition">Mint Condition</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-panel uk-panel-box uk-panel-hover">
+                    <figure class="uk-overlay uk-overlay-hover uk-text-center">
+                        <img class="uk-align-center" src="images/recently-viewed/fathom.png" />
+                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-top">
+                            <h3>Looking for:</h3> <br>
+                            <p>Montreal 856 for Zellersasn</p>
+                        </figcaption>
+                    </figure>
+                    <h3 class="uk-panel-title">Walrus Audio Fathom/Arp97 Dual Combo</h3>
+                    <p class="panel-condition">Excellent Condition</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-panel uk-panel-box uk-panel-hover">
+                    <figure class="uk-overlay uk-overlay-hover uk-text-center">
+                        <img class="uk-align-center" src="images/recently-viewed/maschine.png" />
+                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-top">
+                            <h3>Looking for:</h3> <br>
+                            <p>Delay</p>
+                            <p>Reverb</p>
+                            <p>Chase Bliss Brothers</p>
+                        </figcaption>
+                    </figure>
+                    <h3 class="uk-panel-title">Native Instruments Maschine Mikro MKII</h3>
+                    <p class="panel-condition">Good Condition</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-panel uk-panel-box uk-panel-hover">
+                    <figure class="uk-overlay uk-overlay-hover uk-text-center">
+                        <img class="uk-align-center" src="images/recently-viewed/bigsky.png" />
+                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-top">
+                            <h3>Looking for:</h3> <br>
+                            <p>cash</p>
+                        </figcaption>
+                    </figure>
+                    <h3 class="uk-panel-title">Strymon Bigsky - Industrial Reverb</h3>
+                    <p class="panel-condition">Mint Condition</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-panel uk-panel-box uk-panel-hover">
+                    <figure class="uk-overlay uk-overlay-hover uk-text-center">
+                        <img class="uk-align-center" src="images/recently-viewed/scarlett.png" />
+                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-top">
+                            <h3>Looking for:</h3> <br>
+                            <p>Studio monitors</p>
+                            <p>Maybe headphones</p>
+                        </figcaption>
+                    </figure>
+                    <h3 class="uk-panel-title">Focusrite Scarlett 2i2 Gen2 Audio Interface</h3>
+                    <p class="panel-condition">Acceptable Condition</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-panel uk-panel-box uk-panel-hover">
+                    <figure class="uk-overlay uk-overlay-hover uk-text-center">
+                        <img class="uk-align-center" src="images/recently-viewed/echosystem.png" />
+                        <figcaption class="uk-overlay-panel uk-overlay-background uk-overlay-top">
+                            <h3>Looking for:</h3> <br>
+                            <p>Digital tape delays</p>
+                        </figcaption>
+                    </figure>
+                    <h3 class="uk-panel-title">Empress Echosystem Delay Computer</h3>
+                    <p class="panel-condition">Mint Condition</p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-grid uk-grid-width-large-1-2 section-title">
+            <h2>From Your Watch List</h2>
+            <a href="">
+                <h4 class="uk-text-right">See All></h4>
+            </a>
+        </div>
+        <div class="uk-grid uk-grid-width-large-1-6" data-uk-grid-margin>
+            <!--Watch List-->
+            <div>
+                <div class="uk-panel uk-panel-box uk-panel-hover">
+                    <img class="uk-align-center uk-border-rounded" src="images/watch-list/audix.png" />
+                    <h3 class="uk-panel-title">Audix i5</h3>
+                    <p class="panel-condition">Acceptable Condition</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-panel uk-panel-box uk-panel-hover">
+                    <img class="uk-align-center uk-border-rounded" src="images/watch-list/timeline.png" />
+                    <h3 class="uk-panel-title">Strymon Timeline</h3>
+                    <p class="panel-condition">Good Condition</p>
+                </div>
+            </div>
+            <div>
+                <div class="uk-panel uk-panel-box uk-panel-hover">
+                    <img class="uk-align-center uk-border-rounded" src="images/watch-list/ct5.png" />
+                    <h3 class="uk-panel-title">Mtl. Asm. Ct5</h3>
+                    <p class="panel-condition">Mint Condition</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="signup-wrapper">
+        <div class="uk-container uk-container-center">
+            <div class="uk-grid uk-text-center">
+                <div class="uk-width-small-1-1">
+                    Newsletter
+                </div>
+                <div class="uk-width-small-1-1">
+                    email
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="uk-container uk-container-center footer">
+        <div class="uk-grid">
+            <div class="uk-width-small-1-1 uk-text-center footer-text">
+                Copyright © 2020 Ethan Park. All Rights Reserved. <br> This is a demonstration site. Content shown here retains the rights of its original owners.
+            </div>
+        </div>
+    </div>
+
+</body>
+</body>
+
+</html>
